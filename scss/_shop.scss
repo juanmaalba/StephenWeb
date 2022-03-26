@@ -1,0 +1,44 @@
+.controlFlex{
+    display: flex;
+    justify-content: center;
+}
+.control{
+    background-color: white(194, 194, 194, 0.815);
+    font-family: 'Roboto Slab', serif;
+    font-size: medium;
+    border: 3px solid #D9BD32;
+    padding: 5px;
+    height: 2.5rem;
+    color: black;
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.galeriaCentrar{
+    display: flex;
+    justify-content: center;
+}
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flexG{
+    display: flex;
+    justify-content: center;
+}
+.figureStyle{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+}
+.shopImg{
+    justify-self: center;
+    max-width: 70%;
+}
+.buttonShop{
+    margin-top: 1rem;
+}

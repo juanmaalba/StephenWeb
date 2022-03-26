@@ -1,0 +1,29 @@
+.historiaCbd{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    padding: 10px;
+    
+}
+.flexCenter{
+    display: flex;
+    justify-content: center;
+}
+.imagenCbd{
+    width: 100%;
+    height: 70%;
+    border: solid 2px #D9BD32;
+    margin-bottom: 1rem;
+}
+.imgBorder{
+    border: solid 2px #D9BD32 ;
+    margin-bottom: 1rem;
+}
+.padding{
+    padding: 10px;
+}
+.imagenUnica{
+    min-width: 30rem;
+}

@@ -1,0 +1,57 @@
+footer {
+    margin: 0;
+}
+footer div{
+       padding: 0;
+}
+footer div p{
+       padding: 0.5rem;
+       max-width: 95%;
+       justify-self: center;
+       align-self: center;
+}
+footer div img{
+       max-width: 100%;
+}
+   
+   /* FINALIZA FOOTER */
+form{
+       
+       max-width: 44rem;
+       margin: 0% auto;
+       margin-bottom: 6rem;
+}
+form fieldset{
+       color:#D9BD32;
+       font-family: 'Roboto Slab', serif;
+       border-radius: 10px;
+       border-color: #D9BD32;
+       border-style: double;
+}
+form fieldset div{
+       margin-top: 10px;
+}
+input{
+       font-family: 'Roboto Slab', serif;
+}
+textarea{
+       resize:none;
+}
+
+.footerLogo{
+    display: flex;
+    padding: 1rem;
+    max-width: 99%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.Redes{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.botonInso{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
