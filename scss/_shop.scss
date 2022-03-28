@@ -1,3 +1,24 @@
+
+main section button{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    
+}
+figure{
+    border: solid #262625;
+    padding: 6px;
+    width: 20%;
+    figcaption{
+        color: white;
+        padding: 2px;
+        height: 20px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    
+    }
+
+}
+
 .controlFlex{
     display: flex;
     justify-content: center;
@@ -6,7 +27,7 @@
     background-color: white(194, 194, 194, 0.815);
     font-family: 'Roboto Slab', serif;
     font-size: medium;
-    border: 3px solid #D9BD32;
+    border: 3px solid $colorSecundario;
     padding: 5px;
     height: 2.5rem;
     color: black;

@@ -1,41 +1,17 @@
 footer {
     margin: 0;
-}
-footer div{
+    div{
        padding: 0;
+       p{
+              padding: 0.5rem;
+              max-width: 95%;
+              justify-self: center;
+              align-self: center;
+       }
+       img{
+              max-width: 100%;
+       }
 }
-footer div p{
-       padding: 0.5rem;
-       max-width: 95%;
-       justify-self: center;
-       align-self: center;
-}
-footer div img{
-       max-width: 100%;
-}
-   
-   /* FINALIZA FOOTER */
-form{
-       
-       max-width: 44rem;
-       margin: 0% auto;
-       margin-bottom: 6rem;
-}
-form fieldset{
-       color:#D9BD32;
-       font-family: 'Roboto Slab', serif;
-       border-radius: 10px;
-       border-color: #D9BD32;
-       border-style: double;
-}
-form fieldset div{
-       margin-top: 10px;
-}
-input{
-       font-family: 'Roboto Slab', serif;
-}
-textarea{
-       resize:none;
 }
 
 .footerLogo{

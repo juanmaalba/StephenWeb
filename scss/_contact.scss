@@ -1,3 +1,30 @@
+
+
+form{
+       
+    max-width: 44rem;
+    margin: 0% auto;
+    margin-bottom: 6rem;
+    fieldset{
+        color:#D9BD32;
+        font-family: 'Roboto Slab', serif;
+        border-radius: 10px;
+        border-color: #D9BD32;
+        border-style: double;
+        div{
+            margin-top: 10px;
+        }
+    }
+}
+
+input{
+    font-family: 'Roboto Slab', serif;
+}
+textarea{
+    resize:none;
+}
+
+
 .flexHeader{
     display: flex;
     max-width: 100%;
@@ -17,7 +44,7 @@
     align-items: center;
 }
 .borde{
-    border: solid #D9BD32  ;
+    border: solid $colorSecundario ;
     border-radius: 50%;
     margin-left: 1rem;
     margin-bottom: 1rem;
@@ -28,7 +55,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    border: solid 2px #D9BD32;
+    border: solid 2px $colorSecundario;
     padding: 5px;
 }
 .acomodarForm{

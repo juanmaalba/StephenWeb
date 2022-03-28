@@ -18,30 +18,11 @@ body {
 .grillaFooter {
   grid-area: footer; }
 
-@keyframes animacion1 {
-  0% {
-    color: #D9BD32; }
-  25% {
-    color: #D9B23D; }
-  50% {
-    color: #F2CF66; }
-  75% {
-    color: #F2CF68; }
-  100% {
-    color: #D9B23D; } }
-
-.animacion {
-  animation-name: animacion1;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-duration: 10s;
-  animation-delay: 0s; }
-
 .zoomNav:hover {
   background-color: #D9BD32;
   transform: scale 1.5;
   transition-duration: 0.5s;
-  color: #262625; }
+  color: black; }
 
 .zoomImg:hover {
   transform: scale(1.1);
@@ -87,40 +68,15 @@ h3 {
 
 footer {
   margin: 0; }
-
-footer div {
-  padding: 0; }
-
-footer div p {
-  padding: 0.5rem;
-  max-width: 95%;
-  justify-self: center;
-  align-self: center; }
-
-footer div img {
-  max-width: 100%; }
-
-/* FINALIZA FOOTER */
-form {
-  max-width: 44rem;
-  margin: 0% auto;
-  margin-bottom: 6rem; }
-
-form fieldset {
-  color: #D9BD32;
-  font-family: 'Roboto Slab', serif;
-  border-radius: 10px;
-  border-color: #D9BD32;
-  border-style: double; }
-
-form fieldset div {
-  margin-top: 10px; }
-
-input {
-  font-family: 'Roboto Slab', serif; }
-
-textarea {
-  resize: none; }
+  footer div {
+    padding: 0; }
+    footer div p {
+      padding: 0.5rem;
+      max-width: 95%;
+      justify-self: center;
+      align-self: center; }
+    footer div img {
+      max-width: 100%; }
 
 .footerLogo {
   display: flex;
@@ -138,22 +94,6 @@ textarea {
   display: flex;
   justify-content: center;
   padding: 1rem; }
-
-main section button {
-  margin-top: 5rem;
-  margin-bottom: 1rem; }
-
-figure {
-  border: solid #262625;
-  padding: 6px;
-  width: 20%; }
-
-figure figcaption {
-  color: white;
-  padding: 2px;
-  height: 20px;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem; }
 
 .flexHeader {
   display: flex;
@@ -181,6 +121,21 @@ figure figcaption {
   margin-left: 5px;
   width: 90%;
   min-width: 90%; }
+
+main section button {
+  margin-top: 5rem;
+  margin-bottom: 1rem; }
+
+figure {
+  border: solid #262625;
+  padding: 6px;
+  width: 20%; }
+  figure figcaption {
+    color: white;
+    padding: 2px;
+    height: 20px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem; }
 
 .controlFlex {
   display: flex;
@@ -246,6 +201,25 @@ figure figcaption {
 
 th, td {
   border: outset #D9BD32 2px; }
+
+form {
+  max-width: 44rem;
+  margin: 0% auto;
+  margin-bottom: 6rem; }
+  form fieldset {
+    color: #D9BD32;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 10px;
+    border-color: #D9BD32;
+    border-style: double; }
+    form fieldset div {
+      margin-top: 10px; }
+
+input {
+  font-family: 'Roboto Slab', serif; }
+
+textarea {
+  resize: none; }
 
 .flexHeader {
   display: flex;
@@ -317,7 +291,11 @@ th, td {
   margin-top: 1rem;
   margin-bottom: 0.5rem; }
 
+section div p {
+  max-width: 90%; }
+
 .historiaCbd {
+  max-width: 100%;
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
@@ -330,7 +308,7 @@ th, td {
   justify-content: center; }
 
 .imagenCbd {
-  width: 100%;
+  width: 89%;
   height: 70%;
   border: solid 2px #D9BD32;
   margin-bottom: 1rem; }
@@ -338,12 +316,6 @@ th, td {
 .imgBorder {
   border: solid 2px #D9BD32;
   margin-bottom: 1rem; }
-
-.padding {
-  padding: 10px; }
-
-.imagenUnica {
-  min-width: 30rem; }
 
 @media screen and (max-width: 407px) {
   .loguito {

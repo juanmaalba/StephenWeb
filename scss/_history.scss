@@ -1,4 +1,8 @@
+section div p{
+    max-width: 90%;
+}
 .historiaCbd{
+    max-width: 100%;
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
@@ -12,18 +16,13 @@
     justify-content: center;
 }
 .imagenCbd{
-    width: 100%;
+    width: 89%;
     height: 70%;
-    border: solid 2px #D9BD32;
+    border: solid 2px $colorSecundario;
     margin-bottom: 1rem;
 }
 .imgBorder{
-    border: solid 2px #D9BD32 ;
+    border: solid 2px $colorSecundario ;
     margin-bottom: 1rem;
 }
-.padding{
-    padding: 10px;
-}
-.imagenUnica{
-    min-width: 30rem;
-}
+
