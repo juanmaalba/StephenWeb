@@ -10,46 +10,48 @@
     <link rel="stylesheet" href="css/style.css">
     
 </head>
-<body>
-    
-    <header class="grillaHeader">
 
+<body>
+    <header class="grillaHeader">
     <div class="grillaNav">
 
          <!--Comienza nav-->   
-        <nav class="navbar navbar-expand-lg navbar-dark bg-nav ">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"><img class="loguito" src="img/logocurry1.png" alt=""></a>
-              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5 text-center  ">
-                    <li class="nav-item m-4 zoomNav rounded-pill">
-                      <a class="nav-link colorNav " aria-current="page" href="index.html">HOME</a>
-                    </li>
-                    <li class="nav-item m-4">
+         <nav class="navbar navbar-expand-lg navbar-dark bg-nav ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img class="loguito" src="img/index/logo-curry-principal.png" alt="Logo principal Stephen Curry"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5 text-center ">
+                  <li class="nav-item  m-4 zoomNav rounded-pill">
+                      <a class="nav-link  colorNav  " aria-current="page" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item m-4">
                       <a class="nav-link zoomNav rounded-pill" href="src/shopnow.html">SHOP</a>
-                    </li>
-                    <li class="nav-item m-4 zoomNav rounded-pill">
+                  </li>
+                  <li class="nav-item m-4 zoomNav rounded-pill">
                       <a class="nav-link" href="src/history.html">HISTORY</a>
-                    </li>
-                    <li class="nav-item m-4 zoomNav rounded-pill">
+                  </li>
+                  <li class="nav-item m-4 zoomNav rounded-pill">
                       <a class="nav-link" href="src/stats.html">STATS</a>
-                    </li>
-                    <li class="nav-item m-4 zoomNav rounded-pill ">
+                  </li>
+                  <li class="nav-item m-4 zoomNav rounded-pill ">
                       <a class="nav-link active" href="src/contact.html">CONTACT</a>
-                    </li>
-                </ul>
-                  <div class="bgNav">
-                    <a href=""><img class="wImg" src="img/person-circle.svg" alt=""></a>
-                  </div>
-                    
-              </div>
+                  </li>
+                      <li class="nav-item m-4 zoomNav rounded-pill ">
+                  </li>
+              </ul>
+              <form class="d-flex  m-auto">
+                  <input class="form-control me-2 colorSerch " type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-warning" type="submit">Search</button>
+              </form>
             </div>
-        </nav>
+          </div>            
+      </nav>
         <!--finaliza nav-->   
     </div>
+    <hr>
     </header>
     <main class=" grillaMain">
         <!-- Comienza carousel-->
@@ -61,13 +63,13 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/stephen 1.png" class="d-block w-100 " alt="...">
+                <img src="img/index/carousel/stephen-carrousel-1.webp" class="d-block w-100 " alt="...">
               </div>
               <div class="carousel-item">
-                <img src="img/stephen 2.png" class="d-block w-100" alt="...">
+                <img src="img/index/carousel/stephen-carousel-2.webp" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="img/stephen 3.png" class="d-block w-100" alt="...">
+                <img src="img/index/carousel/stephen-carousel-3.webp" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -80,27 +82,74 @@
             </button>
         </div>
         <!-- termina carousel-->
+
+
     </main>
     <section>
-      <button class="button zoomNav">MATCH TIKETS HERE</button>
+      <a href="https://www.hellotickets.com.ar/estados-unidos/san-francisco/deportes/entradas-golden-state-warriors/2173?tap_a=28796-1e3098&tap_s=2012950-01cb3f&msg=ticket&gclid=Cj0KCQjw6J-SBhCrARIsAH0yMZgdH88tnBPvQkRJxG2iRA55zAbNWEMwUSaJ5g1wNKbvM6muD11PpisaAmm2EALw_wcB" target="_blanck"><button class="button zoomNav">MATCH TIKETS HERE</button></a>
     </section>
+    <h1 class="tituloIndex">Stephen Curry Web</h1>
+    <p class="parrafoIndex">Athletes use our products</p>
+    <section>
+      <div class="fondoIndex">
+        <img class="imagenShop" src="img/index/shop-kids.webp" alt="Imagen shop kids">
+        <img class="imagenShop" src="img/index/shop-men.webp" alt="Imagen shop men">
+        <img class="imagenShop" src="img/index/shop-shoes.webp" alt="Imagen shop shoes">
+        <img class="imagenShop" src="img/index/shop-women.webp" alt="Imagen shop women">
+      </div>
+    </section>
+
+
+    <!--Comienza modal info-->
+    <button  type="button" class="buttonMatch zoomNav m-auto mb-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      More info
+    </button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">About Stephen</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Wardell Stephen Curry II (Akron, Ohio, March 14, 1988) is an American basketball player who belongs to the NBA Golden State Warriors team. At 1.88 meters tall, he plays in the point guard position. He has been a three-time NBA champion and two-time regular season MVP. He is considered one of the best triples of all time, being the one who has scored the most triples in the NBA, and many sports analysts consider him the best 'shooter' in history.
+          </div>
+          <div class="acomodarModal">
+            <button type="button" class="btn buttonMatch zoomNav" data-bs-dismiss="modal">Close</button>
+            <a href="https://es.wikipedia.org/wiki/Stephen_Curry" target="_blanck"><button type="button" class="btn buttonMatch zoomNav">+Info</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Comienza modal info-->
+
+
+    <!--Comienza footer-->
     <footer class="footer">
         <hr>
         <div class="footerLogo">
-            <img src="img/logocurry1.png" alt="logo stephne curry">
+            <img src="img/index/logo-curry-principal.png" alt="Logo principal Stephen Curry">
             <p>© Copyright 2022, ALL RIGHTS RESERVED by its creator ALBA JUAN MARTIN. The logo and trademarks are the property of and/or their respective owners. Total or partial reproduction is prohibited, without the express authorization of the administrator of the virtual store.</p>
         </div>  
         <div class="Redes">
-            <a href="https://es-la.facebook.com/StephenCurryOfficial" target="_blanck"><img class=" zoomNav redondeo" src="img/social_media_facebook_fb_icon_129002.png" alt="logo facebook"></a>
-            <a href="https://twitter.com/StephenCurry30?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blanck"><img class="zoomNav redondeo" src="img/social_media_twitter_icon_128994.png" alt="logo twitter"></a>
-            <a href="https://www.instagram.com/stephencurry30/?hl=es" target="_blanck"><img class="zoomNav redondeo" src="img/social_media_instagram_ig_icon_128999.png" alt="logo instagram"></a>
-            <a href="https://www.youtube.com/c/stephcurry" target="_blanck"><img class="zoomNav redondeo" src="img/social_media_youtube_video_play_icon_128997.png" alt="logo youtube"></a>
+            <a href="https://es-la.facebook.com/StephenCurryOfficial" target="_blanck"><img class="zoomNav redondeo" src="img/socialmedia/social_media_facebook_fb_icon_129002.png" alt="logo facebook"></a>
+            <a href="https://twitter.com/StephenCurry30?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blanck"><img class="zoomNav redondeo" src="img/socialmedia/social_media_twitter_icon_128994.png" alt="logo twitter"></a>
+            <a href="https://www.instagram.com/stephencurry30/?hl=es" target="_blanck"><img class="zoomNav redondeo" src="img/socialmedia/social_media_instagram_ig_icon_128999.png" alt="logo instagram"></a>
+            <a href="https://www.youtube.com/c/stephcurry" target="_blanck"><img class="zoomNav redondeo" src="img/socialmedia/social_media_youtube_video_play_icon_128997.png" alt="logo youtube"></a>
         </div>
         <div class="botonInso">
-            <button class="button  zoomNav">Regreat button</button>
+            <button class="button zoomNav">Regreat button</button>
         </div>    
     </footer>
-    
+    <!--Termina footer-->
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
+
+
+

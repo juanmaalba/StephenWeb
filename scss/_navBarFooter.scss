@@ -1,0 +1,42 @@
+.bg-nav{
+    background-color: $colorPrincipal;
+}
+//FOTER//
+footer {
+    margin: 0;
+    div{
+       padding: 0;
+       p{
+              padding: 0.5rem;
+              max-width: 95%;
+              justify-self: center;
+              align-self: center;
+       }
+       img{
+              max-width: 100%;
+       }
+}
+}
+
+.footerLogo{
+    display: flex;
+    padding: 1rem;
+    max-width: 99%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.Redes{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.botonInso{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.colorSerch{
+    background-color: map-get($map: $paleta , $key: 'gris' );
+    border: solid 3px $colorSecundario;
+    
+}

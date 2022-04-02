@@ -25,4 +25,9 @@ section div p{
     border: solid 2px $colorSecundario ;
     margin-bottom: 1rem;
 }
-
+.imagenDificil{
+    @media screen and (min-width: 769px){
+        min-width: 300px;
+        margin-right: 1rem;
+    }
+}

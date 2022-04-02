@@ -1,0 +1,143 @@
+
+.flexHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+}
+
+.ordenCarrusel{
+    display: flex;
+    flex-direction: column;
+    
+}
+.imgCarrusel{
+    width: 90%;
+    height: 40%;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+   
+}
+.fondoIndex{
+    @include flex (flex, row, space-around, wrap);
+    max-width: 100%;
+    margin-top: 3.5rem;
+    margin-bottom: 5rem;
+
+}
+.imagenShop{
+    width: 20%;
+    border-radius: 2px;
+    box-shadow: 8px 8px 3px;
+    @media screen and (max-width: 740px){
+        width: 45%;
+        margin-bottom: 1rem;
+    }
+}
+.buttonMatch{
+    background-color: rgba(194, 194, 194, 0.815);
+    font-family: 'Roboto Slab', serif;
+    border: 3px solid;
+    height: 2.5rem;
+    color: white;
+    margin-top: 2vh;
+    margin-left: 5px;
+    width: 90%;
+    min-width: 90%; 
+}
+.parrafoIndex{
+    color: $colorSecundario;
+    font-size: 2em;
+    margin: auto;
+    @media screen and (max-width: 466px){
+        font-size: 1.5em;
+    }
+    @media screen and (max-width: 352px){
+        font-size: 1em;
+    }
+}
+.acomodarModal{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    align-self: center;
+}
+.redondeo{
+    border-radius: 50%;
+}
+//SHOP//
+
+
+main section button{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    
+}
+figure{
+    border: solid #262625;
+    padding: 6px;
+    width: 20%;
+    figcaption{
+        color: white;
+        padding: 2px;
+        height: 20px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    
+    }
+
+}
+
+.controlFlex{
+    display: flex;
+    justify-content: center;
+}
+.control{
+    background-color: map-get($map: $paleta , $key:'gris');
+    font-family: 'Roboto Slab', serif;
+    font-size: medium;
+    border: 3px solid $colorSecundario;
+    padding: 5px;
+    height: 2.5rem;
+    color: black;
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    
+}
+.galeriaCentrar{
+    display: flex;
+    justify-content: center;
+}
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flexG{
+    display: flex;
+    justify-content: center;
+}
+.figureStyle{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+}
+.shopImg{
+    justify-self: center;
+    max-width: 70%;
+    margin-top: 0.3rem;
+    border-radius: 5px;
+}
+.buttonShop{
+    @extend .buttonMatch;
+        margin-top: 1rem;
+        border-radius: 5px;
+        margin: auto;
+        margin-bottom: 0.5rem;
+    
+}

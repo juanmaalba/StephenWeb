@@ -1,13 +1,9 @@
-@import "_commons";
-@import "_fonts";
-@import "_navBar";
-@import "_footer";
-@import "_home";
-@import "_shop";
-@import "_stats";
-@import "_contact";
+@import "_commons&fonts";
+@import "_navBarFooter";
+@import "_homeShop";
+@import "_statsContact";
 @import "_history";
-@import "_media.scss"
+@import "_mediaq&error404.scss"
 
 
 
