@@ -95,7 +95,8 @@ footer {
 .botonInso {
   display: flex;
   justify-content: center;
-  padding: 1rem; }
+  padding: 1rem;
+  margin-bottom: 2rem; }
 
 .colorSerch {
   background-color: #BFBFBF;
@@ -143,13 +144,15 @@ footer {
   color: white;
   margin-top: 2vh;
   margin-left: 5px;
-  width: 90%;
-  min-width: 90%; }
+  width: 90%; }
 
 .parrafoIndex {
-  color: #D9BD32;
+  color: black;
   font-size: 2em;
-  margin: auto; }
+  margin: auto;
+  background-color: #D9BD32;
+  width: 90%;
+  text-align: center; }
   @media screen and (max-width: 466px) {
     .parrafoIndex {
       font-size: 1.5em; } }
@@ -165,6 +168,11 @@ footer {
 
 .redondeo {
   border-radius: 50%; }
+
+.aaa {
+  text-decoration: none;
+  color: white;
+  width: 100%; }
 
 main section button {
   margin-top: 5rem;
