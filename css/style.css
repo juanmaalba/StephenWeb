@@ -330,7 +330,7 @@ textarea {
   width: 300px;
   height: 5rem; }
 
-.button {
+.button, .botonError {
   background-color: rgba(194, 194, 194, 0.815);
   font-family: 'Roboto Slab', serif;
   border: 3px solid;
@@ -374,13 +374,39 @@ section div p {
     margin-right: 1rem; } }
 
 .div404 {
-  display: flex;
-  justify-content: center;
-  max-height: 100vh;
-  padding: 1rem; }
+  text-align: center;
+  margin-top: rem; }
 
 .imagen404 {
-  width: 80%; }
+  width: 50%;
+  border: solid white;
+  border-radius: 20px; }
+  @media screen and (max-width: 600px) {
+    .imagen404 {
+      width: 70%; } }
+
+.p404 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 3em;
+  text-align: center;
+  background-color: #D9BD32;
+  color: black; }
+  @media screen and (max-width: 422px) {
+    .p404 {
+      font-size: 2em; } }
+
+.botonError {
+  width: 90%;
+  margin: 0;
+  font-size: 1.5em;
+  margin-top: 5px; }
+  @media screen and (max-width: 422px) {
+    .botonError {
+      font-size: 1em; } }
+
+.aError {
+  text-align: center; }
 
 @media screen and (max-width: 407px) {
   .loguito {

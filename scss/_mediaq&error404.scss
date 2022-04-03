@@ -1,15 +1,42 @@
 //error404//
 .div404{
-    display: flex;
-    justify-content: center;
-    max-height: 100vh;
-    padding: 1rem;
+    text-align: center;
+    margin-top: rem;
 }
 .imagen404{
-    width: 80%;
+    width: 50%;
+    border: solid white;
+    border-radius: 20px;
+    @media screen and (max-width: 600px){
+        width: 70%;
+    } 
+    
 }
-
-
+.p404{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 3em;
+    text-align: center;
+    background-color: $colorSecundario;
+    color: $colorPrincipal;
+    @media screen and (max-width: 422px){
+        font-size: 2em;
+    } 
+}
+.botonError{
+    @extend .button;
+    width: 90%;
+    margin: 0;
+    font-size: 1.5em;
+    margin-top: 5px;
+    @media screen and (max-width: 422px){
+        font-size: 1em;
+    } 
+    
+}
+.aError{
+    text-align: center;
+}
 //@media//
 
 @media screen and (max-width: 407px){
