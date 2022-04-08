@@ -46,8 +46,18 @@
    
 }
 @media screen and (max-width: 768px){
-   
-
+   main{
+       section{
+           div{
+               p{
+                   margin-left: 1.5rem;
+               }
+           }
+       }
+   }
+   .imagenCbd{
+       margin-left: 1.5rem;
+   }
    .imagenLogo{
        max-width: 70%;
    }
@@ -86,14 +96,28 @@
        display: flex;
        flex-wrap: wrap;
        justify-content: space-around;
-       flex-direction: column;
-       min-width: 90%;
-       max-width: 90%;
+       flex-direction: row;
+       min-width: 100%;
        align-content: space-around;
    }
-   
    .figureStyle{
-       min-width: 100%;
+       min-width: 40%;
    }
-   
+  
+}
+@media screen and (max-width: 991px){
+    .figureStyle{
+        max-width: 33%;
+        min-width: 33%;
+    }
+    
+}
+@media screen and (max-width: 626px){
+    
+    .shopImg{
+        width: 50%;
+    }
+    .figureStyle{
+        min-width: 80%;
+    }
 }
