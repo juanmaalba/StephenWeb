@@ -37,7 +37,7 @@ footer {
     margin-bottom: 2rem;
 }
 .colorSerch{
-    background-color: map-get($map: $paleta , $key: 'gris' );
+    background-color: map-get($map: $paleta , $key: 'blanco' );
     border: solid 3px $colorSecundario;
     
 }
